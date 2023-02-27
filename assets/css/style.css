@@ -1,0 +1,27 @@
+#section-price .wrapper-price{
+    gap: 24px;
+
+}
+
+
+
+@media (min-width: 780px) {
+    #section-price .card-price{
+        width: calc(50% - 16px);
+    }
+}
+
+
+
+@media (min-width: 1020px) {
+    #section-price .card-price{
+        width: calc(50% - 16px);
+    }
+}
+
+
+@media (min-width: 1280px) {
+    #section-price .card-price{
+        width: calc(33.33% - 16px);
+    }
+}

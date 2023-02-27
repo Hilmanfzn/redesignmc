@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -102,8 +103,8 @@
         <div class="hidden lg:block w-[100%] lg:flex justify-center mt-[64px] gap-[79px]">
             <a href="https://www.blechmal.de/" target="_blank">
                 <img class="h-fit" src="./assets/images/satu.png" alt="">
-            </a>    
-            <a href="https://ceriakid.id/" target="_blank"> 
+            </a>
+            <a href="https://ceriakid.id/" target="_blank">
                 <img class="h-fit" src="./assets/images/dua.png" alt="">
             </a>
             <a href="https://jfx.co.id/media?hal=home">
@@ -119,11 +120,11 @@
             <a href="https://staging.idki.mangcoding.com/" target="_blank">
                 <img class="h-fit" src="./assets/images/tujuh.png" alt="">
             </a>
-        
+
         </div>
     </section>
 
-    <div class="conteiner mt-[40px] text-center">
+    <div class="container mt-[40px] text-center">
         <h1 class="text-black font-bold text-[24px] lg:text-[32px]">Service Package</h1>
         <p class="text-greydark text-[14px] mt-[16px]">History and the beginningof of the formation of the mangcoding
             team
@@ -131,10 +132,11 @@
     </div>
 
     <!--Trouble-->
-    <section class="container mt-[40px]">
-        <div class="rounded-[32px] gap-[24px] md:flex lg:flex lg:justify-center">
-            <div class="rounded-[32px]"
-                style="overflow: hidden;position: relative;box-shadow: 0px 11px 30px rgba(0, 0, 0, 0.05);padding: 24px;">
+    <section id="section-price" class="container mt-[40px]">
+        <div class="wrapper-price rounded-[32px] flex flex-wrap lg:justify-center">
+            <!-- card 1 -->
+            <div class="rounded-[32px] card-price"
+                style="overflow: hidden;position: relative;box-shadow: 0px 11px 30px rgba(0, 0, 0, 0.05);padding: 40px;">
                 <div class="flex gap-[93px]">
                     <div class="">
                         <img class="mr-[18px]" clss="" src="./assets/images/spfi.png" alt="">
@@ -168,8 +170,9 @@
                         href="">View Detail</a>
                 </div>
             </div>
-            <div class="rounded-[32px] mt-[40px] lg:mt-0"
-                style="overflow: hidden;position: relative;box-shadow: 0px 11px 30px rgba(0, 0, 0, 0.05);padding: 24px;">
+            <!-- card 2 -->
+            <div class="rounded-[32px] card-price"
+                style="overflow: hidden;position: relative;box-shadow: 0px 11px 30px rgba(0, 0, 0, 0.05);padding: 40px;">
                 <div class="flex gap-[93px]">
                     <div class="">
                         <img class="mr-[18px]" clss="" src="./assets/images/wp.png" alt="">
@@ -205,8 +208,9 @@
                         href="">View Detail</a>
                 </div>
             </div>
-            <div class="rounded-[32px] mt-[40px] lg:mt-0"
-                style="overflow: hidden;position: relative;box-shadow: 0px 11px 30px rgba(0, 0, 0, 0.05);padding: 24px;">
+            <!-- card 3 -->
+            <div class="rounded-[32px] card-price"
+                style="overflow: hidden;position: relative;box-shadow: 0px 11px 30px rgba(0, 0, 0, 0.05);padding: 40px;">
                 <div class="flex gap-[93px]">
                     <div class="">
                         <img class="mr-[18px]" clss="" src="./assets/images/php.png" alt="">
@@ -242,10 +246,89 @@
                         href="">View Detail</a>
                 </div>
             </div>
+            <!-- Card 4 -->
+            <div class="rounded-[32px] card-price"
+                style="overflow: hidden;position: relative;box-shadow: 0px 11px 30px rgba(0, 0, 0, 0.05);padding: 40px;">
+                <div class="flex gap-[93px]">
+                    <div class="">
+                        <img class="mr-[18px]" clss="" src="./assets/images/php.png" alt="">
+                        <h1 claass="font-bold text-[20px] mt-[32px]" style="margin-top: 32px;"><span
+                                class="text-purple font-bold"> Custom Plugin/ </span><br>
+                            Custom App</h1>
+                    </div>
+                    <div style=" position: absolute; top: 0; right: 0;">
+                        <img class="" src="./assets/svg/purple.svg" alt="">
+                    </div>
+                </div>
+                <h1 class="font-bold text-[32px] lg:text-[48px] w-[127px]">$300</h1>
+                <p class="lg:w-[304px] text-[14px] text-greydark mt-[16px]">Start from 700 USD for project or 35 USD
+                    <br>
+                    for
+                    hour
+                </p>
+                <div class="flex">
+                    <img class="mr-[18px]" src="./assets/svg/medal.svg" alt="">
+                    <p class="w-[300px] text-[14px] leading-[24px] text-greydark mt-[24px]">Provide template from
+                        scratch using your
+                        Figma/PSD design or we can provide design for you</p>
+                </div>
+                <div class="flex">
+                    <img class="mr-[18px]" src="./assets/svg/medal.svg" alt="">
+                    <p class="lg:w-[300px] text-[14px] leading-[24px] text-greydark mt-[16px]">Choose any template of
+                        your
+                        choice as a
+                        base and customize it according to your business need</p>
+                </div>
+                <div class=" flex justify-center">
+                    <a class="py-[16px] px-[32px] text-center lg:w-[100%] text-[16px] text-white bg-blue rounded-[38px] mt-[24px]"
+                        href="">View Detail</a>
+                </div>
+            </div>
+            <!-- Card 5 -->
+             <!-- Card 4 -->
+             <div class="rounded-[32px] card-price"
+             style="overflow: hidden;position: relative;box-shadow: 0px 11px 30px rgba(0, 0, 0, 0.05);padding: 40px;">
+             <div class="flex gap-[93px]">
+                 <div class="">
+                     <img class="mr-[18px]" clss="" src="./assets/images/php.png" alt="">
+                     <h1 claass="font-bold text-[20px] mt-[32px]" style="margin-top: 32px;"><span
+                             class="text-purple font-bold"> Custom Plugin/ </span><br>
+                         Custom App</h1>
+                 </div>
+                 <div style=" position: absolute; top: 0; right: 0;">
+                     <img class="" src="./assets/svg/purple.svg" alt="">
+                 </div>
+             </div>
+             <h1 class="font-bold text-[32px] lg:text-[48px] w-[127px]">$300</h1>
+             <p class="lg:w-[304px] text-[14px] text-greydark mt-[16px]">Start from 700 USD for project or 35 USD
+                 <br>
+                 for
+                 hour
+             </p>
+             <div class="flex">
+                 <img class="mr-[18px]" src="./assets/svg/medal.svg" alt="">
+                 <p class="w-[300px] text-[14px] leading-[24px] text-greydark mt-[24px]">Provide template from
+                     scratch using your
+                     Figma/PSD design or we can provide design for you</p>
+             </div>
+             <div class="flex">
+                 <img class="mr-[18px]" src="./assets/svg/medal.svg" alt="">
+                 <p class="lg:w-[300px] text-[14px] leading-[24px] text-greydark mt-[16px]">Choose any template of
+                     your
+                     choice as a
+                     base and customize it according to your business need</p>
+             </div>
+             <div class=" flex justify-center">
+                 <a class="py-[16px] px-[32px] text-center lg:w-[100%] text-[16px] text-white bg-blue rounded-[38px] mt-[24px]"
+                     href="">View Detail</a>
+             </div>
+         </div>
         </div>
-        <div class="md:flex justify-center gap-[24px] mt-[40px]">
+
+        <!-- Flex -->
+        <!-- <div class="md:flex justify-center gap-[24px] mt-[40px]">
             <div class="rounded-[32px]"
-                style="overflow: hidden;position: relative;box-shadow: 0px 11px 30px rgba(0, 0, 0, 0.05);padding: 24px;">
+                style="overflow: hidden;position: relative;box-shadow: 0px 11px 30px rgba(0, 0, 0, 0.05);padding: 40px;">
                 <div class="flex gap-[93px]">
                     <div class="">
                         <img class="mr-[18px]" clss="" src="./assets/images/ww.png" alt="">
@@ -314,7 +397,8 @@
                         href="">View Detail</a>
                 </div>
             </div>
-        </div>
+        </div> -->
+        <!-- Endflex -->
     </section>
 
     <div class="container mt-[160px]">
@@ -329,22 +413,94 @@
     </div>
 
 
+    <!-- our Work -->
     <section class="container mt-[32px]">
-        <div class="lg:flex justify-center gap-[24px]">
-            <div>
-                <img src="./assets/images/polla.png" alt="">
-                <div class="absolute block lg:hidden  flex py-[12px] ml-[20px] w-[300px] px-[12px] rounded-[12px] bg-white mt-[-40px] lg:mt-[-60px]"
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-[110px]">
+            <!-- card 1 -->
+            <div class="relative">
+                <img class="w-full h-[326px] object-cover" src="./assets/images/polla.png" alt="">
+
+                <div class="bg-white rounded-xl absolute --bottom-[60px] md:-bottom-[80px] w-10/12 left-1/2 -translate-x-1/2">
+                    <div class="lg:flex justify-between py-[32px]  px-6 ml-[1px] rounded-[12px] bg-white"
                     style="box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.03);">
-                    <div>
-                        <img class="mr-[24px]" src="./assets/svg/polla.svg" alt="">
-                    </div>
-                    <div>
-                        <p class="text-[14px] lg:text-[16px] font-bold text-black">Pella Nutrition</p>
-                        <a class="text-[14px] text-greydark" href="https://pellanutrition.com/">www.pelanutrition.com</a>
+                        <div class="flex gap-4">
+                            <img src="./assets/svg/polla.svg" alt="">
+                            <div class="">
+                                <h2 class="text-[14px] lg:text-[16px] font-bold text-black">Pella Nutrition</h2>
+                                <a class="text-[14px] text-greydark" href="https://pellanutrition.com/">www.pelanutrition.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="hidden md:flex">
+                            <img class="" src="./assets/svg/shpify.svg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="mt-[40px] lg:mt-0">
+            <!-- card 2 -->
+            <div class="relative">
+                <img class="w-full h-[326px] object-cover" src="./assets/images/polla.png" alt="">
+
+                <div class="bg-white rounded-xl absolute -bottom-[60px] md:-bottom-[80px] w-10/12 left-1/2 -translate-x-1/2">
+                    <div class="lg:flex justify-between py-[32px]  px-6 ml-[1px] rounded-[12px] bg-white"
+                    style="box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.03);">
+                        <div class="flex gap-4">
+                            <img src="./assets/svg/polla.svg" alt="">
+                            <div class="">
+                                <h2 class="text-[14px] lg:text-[16px] font-bold text-black">Pella Nutrition</h2>
+                                <a class="text-[14px] text-greydark" href="https://pellanutrition.com/">www.pelanutrition.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="hidden md:flex">
+                            <img class="" src="./assets/svg/shpify.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card 3 -->
+            <div class="relative">
+                <img class="w-full h-[326px] object-cover" src="./assets/images/polla.png" alt="">
+
+                <div class="bg-white rounded-xl absolute -bottom-[60px] md:-bottom-[80px] w-10/12 left-1/2 -translate-x-1/2">
+                    <div class="lg:flex justify-between py-[32px]  px-6 rounded-[12px] bg-white"
+                        style="box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.03);">
+                        <div class="flex gap-4">
+                            <img src="./assets/svg/polla.svg" alt="">
+                            <div class="">
+                                <h2 class="text-[14px] lg:text-[16px] font-bold text-black">Pella Nutrition</h2>
+                                <a class="text-[14px] text-greydark" href="https://pellanutrition.com/">www.pelanutrition.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="hidden md:flex">
+                            <img class="" src="./assets/svg/shpify.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card-4 -->
+            <div class="relative">
+                <img class="w-full h-[326px] object-cover" src="./assets/images/polla.png" alt="">
+
+                <div class="bg-white rounded-xl absolute -bottom-[60px] md:-bottom-[80px] w-10/12 left-1/2 -translate-x-1/2">
+                    <div class="lg:flex justify-between py-[32px]  px-6 ml-[1px] rounded-[12px] bg-white"
+                    style="box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.03);">
+                        <div class="flex gap-4">
+                            <img src="./assets/svg/polla.svg" alt="">
+                            <div class="">
+                                <h2 class="text-[14px] lg:text-[16px] font-bold text-black">Pella Nutrition</h2>
+                                <a class="text-[14px] text-greydark" href="https://pellanutrition.com/">www.pelanutrition.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="hidden md:flex">
+                            <img class="" src="./assets/svg/shpify.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="mt-[40px] lg:mt-0">
                 <img src="./assets/images/dokter.png" alt="">
                 <div class="absolute block lg:hidden  flex py-[12px] ml-[20px] w-[300px] px-[12px] rounded-[12px] bg-white mt-[-40px] lg:mt-[-60px]"
                     style="box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.03);">
@@ -353,20 +509,21 @@
                     </div>
                     <div>
                         <p class="text-[14px] lg:text-[16px] font-bold text-black">Ikatan Dokter Kerja Indonesia</p>
-                        <a class="text-[14px] text-greydark" href="https://staging.idki.mangcoding.com/">www.pelanutrition.com</a>
+                        <a class="text-[14px] text-greydark"
+                            href="https://staging.idki.mangcoding.com/">www.pelanutrition.com</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
-    <section class="mt-[40px]">
+    <!-- <section class="mt-[40px]">
         <div class="hidden lg:block lg:flex justify-center gap-[94px]">
-            <div class="lg:flex justify-between py-[12px]  px-[12px] ml-[1px] rounded-[12px] bg-white mt-[-95px]"
-                style="box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.03);">
+            <div class="lg:flex justify-between py-[32px]  px-6 ml-[1px] rounded-[12px] bg-white"
+            style="box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.03);">
                 <div class="mt-[12px]">
                     <img src="./assets/svg/polla.svg" alt="">
                 </div>
-                <div class="ml-[16px] mt-[12px]">
+                <div class="">
                     <h2 class="text-[14px] lg:text-[16px] font-bold text-black">Pella Nutrition</h2>
                     <a class="text-[14px] text-greydark" href="https://pellanutrition.com/">www.pelanutrition.com</a>
                 </div>
@@ -374,12 +531,12 @@
                     <img class="ml-[195px]" src="./assets/svg/shpify.svg" alt="">
                 </div>
             </div>
-            <div class=" lg:flex justify-between py-[12px] px-[12px] rounded-[12px] bg-white mt-[-95px]"
+            <div class=" lg:flex justify-between py-[12px] px-[12px] rounded-[12px] bg-white"
                 style="box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.03);">
                 <div class="mt-[12px]">
                     <img src="./assets/svg/dokter.svg" alt="">
                 </div>
-                <div class="ml-[16px] mt-[12px]">
+                <div class="">
                     <h2 class="text-[16px] font-bold text-black">Ikatan Dokter Kerja Indonesia</h2>
                     <a class="text-[14px] text-greydark" href="https://staging.idki.mangcoding.com/">www.idki.com</a>
                 </div>
@@ -387,13 +544,13 @@
                     <img class="ml-[51px] mt-[12px]" src="./assets/svg/figmaa.svg" alt="">
                 </div>
                 <div>
-                    <img class="ml-[16px] mt-[12px]" src="./assets/svg/telwind.svg" alt="">
+                    <img class="" src="./assets/svg/telwind.svg" alt="">
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="container mt-[32px]">
+    <!-- <section class="container mt-[32px]">
         <div class="lg:flex justify-center gap-[24px]">
             <div>
                 <img src="./assets/images/retainer.png" alt="">
@@ -425,9 +582,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section>
+    <!-- <section>
         <div class="hidden lg:block lg:flex  justify-center gap-[94px]">
             <div class="flex justify-between  py-[12px]  px-[12px] ml-[1px] rounded-[12px] bg-white mt-[-60px]"
                 style="box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.03);">
@@ -459,11 +616,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
-    <div class="container mt-[70px] lg:mt-[40px]">
-        <div class="container flex mb-[80px ] flex justify-center justify-center">
+    <div class="container mt-[70px] lg:mt-[80px]">
+        <div class="container pt-20 flex mt-[80px ] flex justify-center justify-center">
             <a class="py-[16px] px-[32px] w-fit text-white text-[14px] bg-blue rounded-[38px]" href="#">More Project</a>
         </div>
     </div>
@@ -528,8 +685,8 @@
             <div class="w-1/2 md:w-1/4 lg:w-1/6">
                 <div class="mt-[73px]">
                     <img class="mx-auto" src="./assets/images/Ardy.png" alt="">
-                    <div class="flex justify-center gap-[16px] mt-[16px]"> 
-                         <a href="https://www.instagram.com/mangcoding.official/" class="z-20">
+                    <div class="flex justify-center gap-[16px] mt-[16px]">
+                        <a href="https://www.instagram.com/mangcoding.official/" class="z-20">
                             <img src="./assets/svg/ig2.svg" alt="">
                         </a>
                         <a href="https://github.com/mangcoding?tab=repositories">
@@ -714,15 +871,15 @@
                         <a href="https://orely.co/">
                             <img src="./assets/svg/orely.svg" alt="">
                         </a>
-                      
+
                         <a href="https://wearekiwa.co/">
                             <img src="./assets/svg/kiwadua.svg" alt="">
                         </a>
-                     
+
                         <a href="https://sansbrothers.com/">
                             <img src="./assets/svg/sans2.svg" alt="">
                         </a>
-                     
+
                     </div>
                     <div class="flex justify-center gap-[24px] mt-[40px]">
                         <a href="https://www.instagram.com/mangcoding.official/" class="z-20">
