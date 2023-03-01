@@ -7,6 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Carousel -->
+    <script src="./assets/vendors/jquery.min.js"></script>
+
+    <!-- <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css"> -->
+    <link rel="stylesheet" href="./assets/owlcarousel/assets/owl.carousel.min.css">
+    <!-- <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css"> -->
+    <link rel="stylesheet" href="./assets/owlcarousel/assets/owl.theme.default.min.css">
+
+    <!-- Tailwinds -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -793,7 +802,7 @@
         </div>
     </div>
 
-    <section class="container mt-[40px] lg:flex justify-center gap-[24px]">
+    <!-- <section class="container mt-[40px] lg:flex justify-center gap-[24px]">
         <div class=" w-[588px] bg-white pb-[32px] rounded-[24px]"
             style="box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.03); width: 100%;">
             <div>
@@ -808,7 +817,7 @@
                 <div>
                     <img class="" src="./assets/images/riko.png" alt="">
                 </div>
-                <div class="ml-[12px] mt-[10px]">
+                <div class="mt-[10px]">
                     <h3 class="font-bold">Riko Sampto Dimo</h3>
                     <p class="text-greydark text-[14px]">Managing Director <span class="font-bold text-[#6464646]">
                             Orely.co</span></p>
@@ -838,6 +847,112 @@
                             Orely.co</span></p>
                 </div>
             </div>
+        </div>
+    </section> -->
+
+    <!-- Set up your HTML -->
+    <section class="container pb-[80px]">
+        <div class="owl-carousel owl-theme">
+            <!-- Testimonial 1 -->
+                <div class="item">
+                    <div class="px-6 py-8 bg-white rounded-[24px]"
+                        style="box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.03); width: 100%;">
+                        <div class="relative">
+                            <img class="w-6 h-6 absolute top-0 left-0" style="width: fit-content!important;" src="./assets/svg/kutip.svg" alt="">
+                            <p class="text-[18px] text-[#050A0F] py-8 leading-[35px]">
+                                It was a great
+                                experience to work with Mangcoding, we love the details result, and professionalism.
+                            </p>
+                            <img class="w-6 h-6 absolute right-0 bottom-0" style="width: fit-content!important;" src="./assets/svg/kutipdua.svg" alt="">
+                        </div>
+                        <div class="flex mt-[16px] ml-[24px]">
+                            <div>
+                                <img class="" src="./assets/images/riko.png" alt="">
+                            </div>
+                            <div class="ml-[12px] mt-[10px]">
+                                <h3 class="font-bold">Riko Sampto Dimo</h3>
+                                <p class="text-greydark text-[14px]">Managing Director <span class="font-bold text-[#6464646]">
+                                        Orely.co</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- testimonial 2 -->
+                <div class="item">
+                    <div class="px-6 py-8 bg-white rounded-[24px]"
+                        style="box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.03); width: 100%;">
+                        <div class="relative">
+                            <img class="w-6 h-6 absolute top-0 left-0" style="width: fit-content!important;" src="./assets/svg/kutip.svg" alt="">
+                            <p class="text-[18px] text-[#050A0F] py-8 leading-[35px]">
+                                It was a great
+                                experience to work with Mangcoding, we love the details result, and professionalism.
+                            </p>
+                            <img class="w-6 h-6 absolute right-0 bottom-0" style="width: fit-content!important;" src="./assets/svg/kutipdua.svg" alt="">
+                        </div>
+                        <div class="flex mt-[16px] ml-[24px]">
+                            <div>
+                                <img class="" src="./assets/images/riko.png" alt="">
+                            </div>
+                            <div class="ml-[12px] mt-[10px]">
+                                <h3 class="font-bold">Riko Sampto Dimo</h3>
+                                <p class="text-greydark text-[14px]">Managing Director <span class="font-bold text-[#6464646]">
+                                        Orely.co</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- testimonial 2 -->
+                 <div class="item">
+                    <div class="px-6 py-8 bg-white rounded-[24px]"
+                        style="box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.03); width: 100%;">
+                        <div class="relative">
+                            <img class="w-6 h-6 absolute top-0 left-0" style="width: fit-content!important;" src="./assets/svg/kutip.svg" alt="">
+                            <p class="text-[18px] text-[#050A0F] py-8 leading-[35px]">
+                                It was a great
+                                experience to work with Mangcoding, we love the details result, and professionalism.
+                            </p>
+                            <img class="w-6 h-6 absolute right-0 bottom-0" style="width: fit-content!important;" src="./assets/svg/kutipdua.svg" alt="">
+                        </div>
+                        <div class="flex mt-[16px] ml-[24px]">
+                            <div>
+                                <img class="" src="./assets/images/riko.png" alt="">
+                            </div>
+                            <div class="ml-[12px] mt-[10px]">
+                                <h3 class="font-bold">Riko Sampto Dimo</h3>
+                                <p class="text-greydark text-[14px]">Managing Director <span class="font-bold text-[#6464646]">
+                                        Orely.co</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- testimonial 2 -->
+                 <div class="item">
+                    <div class="px-6 py-8 bg-white rounded-[24px]"
+                        style="box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.03); width: 100%;">
+                        <div class="relative">
+                            <img class="w-6 h-6 absolute top-0 left-0" style="width: fit-content!important;" src="./assets/svg/kutip.svg" alt="">
+                            <p class="text-[18px] text-[#050A0F] py-8 leading-[35px]">
+                                It was a great
+                                experience to work with Mangcoding, we love the details result, and professionalism.
+                            </p>
+                            <img class="w-6 h-6 absolute right-0 bottom-0" style="width: fit-content!important;" src="./assets/svg/kutipdua.svg" alt="">
+                        </div>
+                        <div class="flex mt-[16px] ml-[24px]">
+                            <div>
+                                <img class="" src="./assets/images/riko.png" alt="">
+                            </div>
+                            <div class="ml-[12px] mt-[10px]">
+                                <h3 class="font-bold">Riko Sampto Dimo</h3>
+                                <p class="text-greydark text-[14px]">Managing Director <span class="font-bold text-[#6464646]">
+                                        Orely.co</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
         </div>
     </section>
 
@@ -908,6 +1023,44 @@
         </div>
     </section>
 
+    <!-- Set up your HTML -->
+   <div class="owl-carousel owl-theme">
+    <div class="item"><h4>1</h4></div>
+    <div class="item"><h4>2</h4></div>
+    <div class="item"><h4>3</h4></div>
+    <div class="item"><h4>4</h4></div>
+    <div class="item"><h4>5</h4></div>
+    <div class="item"><h4>6</h4></div>
+    <div class="item"><h4>7</h4></div>
+    <div class="item"><h4>8</h4></div>
+    <div class="item"><h4>9</h4></div>
+    <div class="item"><h4>10</h4></div>
+    <div class="item"><h4>11</h4></div>
+    <div class="item"><h4>12</h4></div>
+</div>
+
+
+    <!-- Javascript -->
+    <script src="./assets/owlcarousel/owl.carousel.min.js"></script>
+
+    <script>
+       $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin:24,
+            nav:false,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:2
+                }
+            }
+        })
+    </script>
 </body>
 
 </html>
